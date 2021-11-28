@@ -7,4 +7,4 @@
 * 4: opencv
 * 5: ipython
 * 6: rem
-* 7: codec
+* 7: code
