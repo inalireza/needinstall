@@ -2,7 +2,7 @@
 ------
 
 * 1: zsh
-* 2: fish
+* 2: fish #somthing install with this i nit remeber now
 * 3: code
 * 4: opencv
 * 5: ipython
