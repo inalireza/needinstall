@@ -1,5 +1,5 @@
 ### This For List of pkg and app need to install after change OS and all need me thing
-
+------
 
 > 1 : zsh
 
@@ -17,6 +17,11 @@
 >> : asax
 
 * RED
----
-sdd
----
+
++ sdd
+
+- dfgd
+
+1.dggdg
+1.dgd
+1.dg
