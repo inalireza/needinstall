@@ -1,0 +1,30 @@
+echo ""'
+# aval ba add kardan file ha shoro mikonim
+1 = git add -A
+
+# bad az taghirati ke anajam dadim hala bayad dar git sabt konim ba dastor commit
+2 = git commit you-file -m "Note taghirat anam shode"
+
+# baraye etesal be server github repo
+3 = git remote add "your project name" https://github.com/inalireza/test.git
+    exampel = git remote add decoder https://github.com/inalireza/decoder.git
+
+# ba estefade az in kode bad az commit kardan file haye taghir yafte dar repo github upload mishan
+4 = git push "your project name" main     (main ya master bastegi be niaz be marge be file aswli nabashe)
+    exampel = git push decoder main
+
+# va baraye download kardan akharin taghirat file ha az repo server github in code estefade mishe
+5 = git pull "your project name" main
+    exampel = git pull decoder main
+
+# Baraye namyesh taghirat in do code ha mishe estaefade kard
+git diff
+git log
+
+
+
+
+
+
+
+"""
