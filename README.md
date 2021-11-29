@@ -8,3 +8,5 @@
 * 5: ipython
 * 6: rem
 * 7: code
+* 8: pip
+* 9: starship
