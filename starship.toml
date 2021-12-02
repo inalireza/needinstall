@@ -1,0 +1,38 @@
+# Use custom format
+format = """
+[╭────](red bold)[➜ ](yellow) $all\
+[|](red)
+[╰─](bold red)[➜](bold yellow) """
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 1
+
+
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[ᛨ]( red)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+disabled = true
+
+[username]
+style_user = "blue bold"
+style_root = "yellow bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format =  "@[$hostname](bold red) in : "
+trim_at = ".companyname.com"
+disabled = false
+ 
+
+
+# Disable the package module, hiding it from t[e prompt completely
+[package]
+disabled = true
+
+
