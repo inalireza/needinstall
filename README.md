@@ -23,7 +23,8 @@ Or Just install kali linux 😄
 > Ama nashodani nist vase makhsosan irania 😈
 
 ```
-git status
-git add
-git commit
+sudo apt-get update
+```
+```
+sudo apt upgrade
 ```
