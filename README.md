@@ -22,7 +22,8 @@ Or Just install kali linux 😄
 > Albate bahcheha iran ba in filtering sangin install kali joz ro vm vaghan dardesar shode
 > Ama nashodani nist vase makhsosan irania 😈
 
-'''
-apt install kali
-
-'''
+```
+git status
+git add
+git commit
+```
