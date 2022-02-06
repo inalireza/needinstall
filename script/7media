@@ -1,0 +1,35 @@
+#!/bin/python3
+
+#mpv "https://youtube.com/$(curl -s "https://vid.puffyan.us/search?q=tataloo" | grep -Eo "watch\?v=.{11}" | head -n 2)"
+
+# from bs4 import BeautifulSoup
+# from bs4 import *
+# import requests
+# 
+# lins = requests.get("http://dl.piano-melli.xyz/film/Khareji/Hardsub/2021/").text
+# 
+# soup = BeautifulSoup(lins, 'html.parser')
+# 
+# tag = soup.get_text("|")
+# print (tag, "\n")
+
+from bs4 import BeautifulSoup
+from urllib.request import Request, urlopen
+import re
+
+req = Request("http://dl.piano-melli.xyz/film/Khareji/Hardsub/2021/")
+html_page = urlopen(req)
+
+soup = BeautifulSoup(html_page, "lxml")
+
+links = []
+for link in soup.findAll('a'):
+    links.append(link.get('href'))
+
+pp = 0
+
+while pp < 40:
+	pp += 1
+	flink = (links[pp])
+
+	print ("http://dl.piano-melli.xyz/film/Khareji/Hardsub/2021/"+flink)
