@@ -13,4 +13,20 @@
 * 8: pip
 * 9: starship
 * 10: vbox
-* 11 :
+* 11 :gobuster
+* 12 :terminator
+* 13 :nmmap
+* 14 :brupsuit
+
+Or Just install kali linux 😄 
+
+ 
+> Albate bahcheha iran ba in filtering sangin install kali joz ro vm vaghan dardesar shode
+> Ama nashodani nist vase makhsosan irania 😈
+
+```
+sudo apt-get update
+```
+```
+sudo apt upgrade
+```
