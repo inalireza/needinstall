@@ -30,3 +30,7 @@ sudo apt-get update
 ```
 sudo apt upgrade
 ```
+ ❯ cat al | sed 's/^../Mr /'  #
+result : change './alireza' to Mr alireza || s: start after /^ .. : rm 2 len /mr /: add mr in start output becus use s
+ 
+ 
