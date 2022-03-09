@@ -1,2 +1,5 @@
+# make todo file save file like .todo--22-5-5--20-45
+# Example = mytodo "Today Crate INdex File And need fix css"
+
 #!/bin/bash
 echo "$*"  >  `date +".todo--%y-%m-%d--%R"`
