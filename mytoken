@@ -1,0 +1,7 @@
+#!/bin/python3
+
+pas = input("ENter pass : ")
+uid = "manman"
+
+if pas == uid:
+	print("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")

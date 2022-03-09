@@ -1,2 +1,3 @@
 #!/bin/bash 
-curl ipinfo.io/212.84.160.176?token=e21bdf004f5342
+
+curl ipinfo.io/$1 ?token=e21bdf004f5342

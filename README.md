@@ -1,4 +1,4 @@
-### This For List of pkg and app need to install after change OS and all need me thing
+dadasq### This For List of pkg and app need to install after change OS and all need me thing
 ------
 
 ### tee use save result any comend to text file
