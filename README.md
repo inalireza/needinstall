@@ -36,8 +36,7 @@ result : change './alireza' to Mr alireza || s: start after /^ .. : rm 2 len /mr
  -----------------------------
 
 # mytodo script
-------
-_______________________________________________________
+
  make todo file save file like .todo--22-5-5--20-45
  
 ### Example = 
